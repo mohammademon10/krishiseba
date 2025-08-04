@@ -4,7 +4,8 @@ A modern, responsive, and accessible frontend interface for the **KrishiSheba** 
 
 Built with **HTML5**, **CSS3**, and **Vanilla JavaScript**, this frontend interfaces seamlessly with the Spring Boot backend.
 
----
+
+
 
 ## ✨ Overview
 
@@ -16,7 +17,7 @@ KrishiSheba empowers the agricultural sector with a user-friendly, secure web pl
 
 This frontend delivers a clean, mobile-first experience with progressive enhancement and accessibility in mind.
 
----
+
 
 ## 🖥️ Tech Stack
 
@@ -27,7 +28,9 @@ This frontend delivers a clean, mobile-first experience with progressive enhance
 - **Inter Font** – optimized typography
 - Backend integration: via REST API (Spring Boot)
 
----
+
+
+
 
 ## 📂 Project Structure
 krishisheba-frontend/
@@ -45,7 +48,8 @@ krishisheba-frontend/
 │ └── images/ # Static images and icons
 └── README.md
 
----
+
+
 
 ## 🎨 UI/UX Features
 
@@ -56,7 +60,9 @@ krishisheba-frontend/
 - 🔍 **Searchable equipment catalog** with filters
 - 🔒 **Role-based UI rendering** (Farmer, Retailer, Admin)
 
----
+
+
+
 
 ## 🔐 Security & Best Practices
 
@@ -66,7 +72,9 @@ krishisheba-frontend/
 - Rate-limiting and CSRF handled via backend
 - Sanitized DOM manipulation to avoid XSS
 
----
+
+
+
 
 ## 🚀 Getting Started
 
@@ -74,6 +82,8 @@ krishisheba-frontend/
 
 - A simple local server (like Live Server in VS Code)
 - Backend API running on `http://localhost:8080`
+
+
 
 ### 🔧 Setup
 
@@ -103,6 +113,8 @@ GET /api/admin/users – admin user management
 
 Tokens are included in Authorization headers as Bearer <token>.
 
+
+
 | Page                     | Description                     | Access        |
 | ------------------------ | ------------------------------- | ------------- |
 | `index.html`             | Landing & intro                 | Public        |
@@ -111,6 +123,9 @@ Tokens are included in Authorization headers as Bearer <token>.
 | `farmerDashboard.html`   | Browse equipment, rent, profile | Farmer only   |
 | `retailerDashboard.html` | Manage listings, requests       | Retailer only |
 | `adminDashboard.html`    | Approve equipment, manage users | Admin only    |
+
+
+
 📈 Features Under Development
 🔔 Notification system for rental status
 
@@ -122,7 +137,10 @@ Tokens are included in Authorization headers as Bearer <token>.
 
 🔄 Real-time data refresh (WebSockets)
 
+
+
 🧪 Testing & Debugging
+
 While no testing framework is used here:
 
 ✅ Manual form validation checks
@@ -133,7 +151,10 @@ While no testing framework is used here:
 
 ✅ Responsive layout tests via Chrome DevTools
 
+
+
 🗺️ Roadmap
+
 ✅ Version 1.0
 All main dashboard templates
 
@@ -163,6 +184,8 @@ Voice interface for farmers
 
 AI-driven equipment suggestion
 
+
+
 🙌 Contributing
 Fork the repo
 
@@ -186,8 +209,11 @@ Write clean, commented JS
 
 Keep UI consistent with backend design
 
+
 📝 License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+
 
 📞 Support
 📘 Docs: Coming soon
@@ -195,5 +221,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 🐛 Report Issues: GitHub Issues
 
 ✉️ Email: support@krishisheba.com
+
+
 
 💚 Made with love for the farmers of Bangladesh 🇧🇩
